@@ -4,9 +4,35 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0 40px 0;
+    color: white;
+    font-size: 80px;
+    font-weight: 150 !important;
+}
+
+.text-deco-none{
+    text-decoration: none;
+}
+
+.text-white{
+    color:gold;
+}
+
+.typed-cursor {
+    color:gold;
 }
 
 .hero {
@@ -17,7 +43,39 @@ body {
     height: 100vh;
 }
 
-.key {
+.keys{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.key {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    padding: 10px 10px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-weight: bolder;
+    transition: all 0.07s;
+}
+
+.key kbd {
+    font-size: 40px;
+}
+
+.key span {
+    color: gold;
+    letter-spacing: 1px;
+}
+
+.playing {
+    transform:scale(1.2) ;
+    border-color: red;
+    box-shadow: 0 0 20px #980000;
 }
 

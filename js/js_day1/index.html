@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drumkit-1</title>
     <link rel="stylesheet" href="public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
     <script src="public/main.js" defer></script>
 </head>
+
 <body class="hero">
-    <kbd></kbd>
+    <div class="header-container">
+        <a href="https://github.com/Physeck/simple_todo-list" class="text-deco-none text-white" id="mainHeader"></a>
+    </div>
+    <div class="keys">
+        <div data-key="D" class="key">
+            <kbd>D</kbd> <!-- 68 -->
+            <span>KICK</span>
+        </div>
+        <div data-key="F" class="key">
+            <kbd>F</kbd> <!-- 70 -->
+            <span>SNARE</span>
+        </div>
+        <div data-key="J" class="key">
+            <kbd>J</kbd> <!-- 74 -->
+            <span>FLOOR</span>
+        </div>
+        <div data-key="K" class="key">
+            <kbd>K</kbd> <!-- 75 -->
+            <span>CYMBAL</span>
+        </div>
+    </div>
+
+    <audio data-key="D" src="public/sounds/kick-drum.mp3"></audio>
+    <audio data-key="F" src="public/sounds/snare-drum.mp3"></audio>
+    <audio data-key="J" src="public/sounds/tom-floor-drum.mp3"></audio>
+    <audio data-key="K  " src="public/sounds/cymbal-drum.mp3"></audio>
 </body>
+
 </html>
