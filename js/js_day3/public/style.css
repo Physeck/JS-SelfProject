@@ -3,11 +3,19 @@
     margin: 0;
 }
 
+:root {
+    --base: #ffffff;
+    --spacing: 20px;
+    --blur: 10px;
+}
+
+
 body {
+    background: linear-gradient(to right, #3982ff, #001d4f);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -18,7 +26,7 @@ body {
     justify-content: space-around;
     align-items: center;
     margin: 40px 0 40px 0;
-    color: white;
+    color: var(--base);
     font-size: 80px;
     font-weight: 150 !important;
 }
@@ -29,14 +37,38 @@ body {
 
 .text-color,
 .typed-cursor {
-    color: white;
+    color: var(--base);
 }
 
 .hero {
-    background-image: url("images/rain-window.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
 }
 
+.controls {
+    margin: 8px;
+    color: white;
+}
+
+.controls label {
+    margin-right: 4px;
+}
+
+.spacing,
+.blur,
+.bg-color {
+    display: flex;
+    padding: 12px 4px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+    background: var(--base);
+}

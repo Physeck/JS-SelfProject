@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day3</title>
+    <title>Image Modifier-3</title>
     <link rel="stylesheet" href="public/style.css">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
     <script src="public/main.js" defer></script>
@@ -14,7 +14,22 @@
     <div class="header-container">
         <a href="https://github.com/Physeck/JS-SelfProject" class="text-deco-none text-color" id="mainHeader"></a>
     </div>
-
+    <h2 style="color: white;">Simple Image Modifier</h2>
+    <div class="controls">
+        <div class="spacing">
+            <label>Spacing: </label>
+            <input type="range" name="spacing" min="10" max="100" value="20" data-sizing="px">
+        </div>
+        <div class="blur">
+            <label>Blur: </label>
+            <input type="range" name="blur" min="0" max="30" value="10" data-sizing="px">
+        </div>
+        <div class="bg-color">
+            <label>Background Color: </label>
+            <input type="color" name="base" value="#ffffff">
+        </div>
+    </div>
+    <img src="public/images/testimg.png">
 </body>
 
 </html>
