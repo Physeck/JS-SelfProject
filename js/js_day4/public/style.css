@@ -49,7 +49,9 @@ table {
     border-collapse: collapse;
 }
 
-tr,th, td{
+tr,
+th,
+td {
     border: 2px solid black;
     border-collapse: collapse;
     padding: 4px;
@@ -60,7 +62,8 @@ tr,th, td{
     height: 70vh;
 }
 
-.names, .people {
+.names,
+.people {
     padding: 20px;
     border-radius: 8px;
     background-color: white;
@@ -69,3 +72,35 @@ tr,th, td{
     box-shadow: 0 4px 12px #000;
 }
 
+p {
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    animation: p-frame 5s infinite;
+}
+
+@keyframes p-frame {
+    0% {
+        color: lightcoral;
+    }
+
+    20% {
+        color: lightgreen;
+    }
+
+    40% {
+        color: blueviolet;
+    }
+
+    60% {
+        color: yellow;
+    }
+
+    80% {
+        color: aqua;
+    }
+
+    100% {
+        color: white;
+    }
+}
