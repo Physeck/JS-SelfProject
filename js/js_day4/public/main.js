@@ -96,7 +96,7 @@ nameData.innerHTML = names.map(fullName => {
 // Array.prototype.filter()
 // 1. Filter array list based on selected value and constraint
 const filt = people.filter(person =>
-  person.year >= 1200 && person.year < 1800
+    person.year >= 1200 && person.year < 1800
 );
 // console.table(filt);
 
@@ -112,21 +112,51 @@ const fullNames = people.map(person => `${person.first} ${person.last}`);
 // (ex 1900 a, 1800 b), then 1900-1800 -> 100 (positive) means moving a after b 
 // if swapped instead (1800 - 1900) -> -100 (negative), it doesnt sort the order, 
 // else if the result is 0, nothing changes
-const sortedPeople = people.sort((a,b) => a.year - b.year);
+const sortedPeople = people.sort((a, b) => a.year - b.year);
 // console.table(sortedPeople)
 
 // Array.prototype.reduce()
 // combines all age of peoples
-const totalYears = people.reduce((total,person) =>{
+const totalYears = people.reduce((total, person) => {
     return total + (person.passed - person.year);
-},0);
+}, 0);
 
 // console.log(totalYears);
 
 //sort people by years lived
-const yearsLived = people.sort((a,b) => {
+const yearsLived = people.sort((a, b) => {
     const lastPerson = a.passed - a.year;
-    const nextPerson = b.passed- b.year;
+    const nextPerson = b.passed - b.year;
     return lastPerson > nextPerson ? 1 : -1
 });
 // console.table(yearsLived);
+
+//turning const into array
+// const multiData = document.querySelector('.many-datas');
+// const listedArray = Array.from(multiData.querySelector('a')); //example taking all the <a> elements
+
+//sort people name alphabetically by first name
+const lastNameSorted = names.sort((a, b) => {
+    const [aFirst, aLast] = a.split(", ");
+    const [bFirst, bLast] = b.split(", ");
+    return aFirst > bFirst ? 1 : -1; // a > b, if a is bigger than b (true) that means swap is true, else no swap (false)
+});
+console.table(lastNameSorted);
+
+
+//sum similar data totals
+const simData = ['car', 'truck', 'bus',
+    'car', 'truck', 'bus',
+    'car', 'bus',
+    'car', 'bus',
+    'car', 'truck', 'bus',
+    'car', 'bus',
+    'car', 'truck',
+    'car', 'truck', 'bus',];
+//manual = 8 car, 5 truck, 7 bus
+
+const sumData = simData.reduce((totalData, summed) => {
+    totalData[summed] = (totalData[summed] || 0 ) + 1;
+    return totalData;
+}, {});
+console.log(sumData);
