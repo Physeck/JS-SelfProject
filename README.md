@@ -7,3 +7,5 @@ Project JS-3 : Simple Image Modifier - 🔗 : https://physeck.github.io/JS-SelfP
 Project JS-4 : Array Filter & Sorter - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day4/
 
 Project JS-5 : Flex Panel Image Gallery - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day5/
+
+Project JS-5 : Ajax JS - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day6/
