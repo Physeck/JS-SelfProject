@@ -40,6 +40,11 @@ const people = [
 ];
 const peopleData = document.getElementById("peopleData");
 
+const peoplesData = people.map(person=>{
+    return person;
+});
+console.log(peoplesData);
+
 //Array Data call const
 peopleData.innerHTML = people.map(person => {
     const ages = person.passed - person.year;
@@ -65,6 +70,12 @@ const names = [
     'Owen, Harris', 'Aria, Sanchez', 'Samuel, Clark', 'Scarlett, Ramirez',
     'Matthew, Lewis', 'Victoria, Robinson'
 ];
+
+const reducedPpl = names.reduce((total,person) =>{
+    return total + person;
+});
+// console.log("test",reducedPpl);
+
 
 const nameData = document.getElementById("nameData");
 
@@ -120,8 +131,11 @@ const sortedPeople = people.sort((a, b) => a.year - b.year);
 const totalYears = people.reduce((total, person) => {
     return total + (person.passed - person.year);
 }, 0);
-
 // console.log(totalYears);
+//reduce has 3 different defined value for a in reduce(a,b) 
+// =>{return}, 0); -> for numbers
+// =>{return}, {}); -> for object
+// =>{return}, []); -> for array
 
 //sort people by years lived
 const yearsLived = people.sort((a, b) => {
@@ -141,7 +155,7 @@ const lastNameSorted = names.sort((a, b) => {
     const [bFirst, bLast] = b.split(", ");
     return aFirst > bFirst ? 1 : -1; // a > b, if a is bigger than b (true) that means swap is true, else no swap (false)
 });
-console.table(lastNameSorted);
+// console.table(lastNameSorted);
 
 
 //sum similar data totals
@@ -159,4 +173,4 @@ const sumData = simData.reduce((totalData, summed) => {
     totalData[summed] = (totalData[summed] || 0 ) + 1;
     return totalData;
 }, {});
-console.log(sumData);
+// console.log(sumData);
