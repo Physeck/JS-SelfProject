@@ -8,4 +8,7 @@ Project JS-4 : Array Filter & Sorter - 🔗 : https://physeck.github.io/JS-SelfP
 
 Project JS-5 : Flex Panel Image Gallery - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day5/
 
-Project JS-5 : Ajax JS - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day6/
+Project JS-6 : Ajax JS - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day6/
+
+Project JS-7 : Array Prototype Func. - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day7/
+
