@@ -42,3 +42,11 @@ body {
 
 /* --------------------------------------*/
 
+.canvas-div {
+    background-color: white;
+}
+
+.canvas-div button {
+    padding: 8px;
+    margin: 4px;
+}
