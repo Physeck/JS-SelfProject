@@ -58,4 +58,4 @@ let mouseDown = false
 progress.addEventListener('click',scrub);
 progress.addEventListener('mousemove', (e) => mouseDown && scrub(e));
 progress.addEventListener('mousedown', () => mouseDown = true); //hold
-progress.addEventListener('mouseup', () => mouseDown = false); //release
+window.addEventListener('mouseup', () => mouseDown = false); //release
