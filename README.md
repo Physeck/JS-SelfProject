@@ -17,3 +17,6 @@ Project JS-8 : Canvas JS - 🔗 : https://physeck.github.io/JS-SelfProject/js/js
 Project JS-9 : Devtool Kits - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day9/
 
 Project JS-10 : Hold Shift Functions - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day10/
+
+Project JS-11 : Video Player - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day11/
+
