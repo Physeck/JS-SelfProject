@@ -13,3 +13,7 @@ Project JS-6 : Ajax JS - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_d
 Project JS-7 : Array Prototype Func. - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day7/
 
 Project JS-8 : Canvas JS - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day8/
+
+Project JS-9 : Devtool Kits - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day9/
+
+Project JS-10 : Hold Shift Functions - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day10/
