@@ -14,6 +14,27 @@
     <div class="header-container">
         <a href="https://github.com/Physeck/JS-SelfProject" class="text-deco-none text-color" id="mainHeader"></a>
     </div>
+    <div class="player">
+        <video class="player__video viewer" src="public/videos/videoplayback.mp4" width="640" height="360"></video>
+        <div class="player__controls">
+            <div class="progress">
+                <div class="progress__filled"></div>
+            </div>
+            <button class="player__button toggle" title="Toggle Play">▶︎</button>
+            <div class="volume-container">
+                <label for="volume">🔊</label>
+                <input type="range" name="volume" min="0" max="1" value="1" step="0.01" class="player__slider">
+            </div>
+            <div class="playback-container">
+                <label for="playbackRate">🕛</label>
+                <input type="range" name="playbackRate" min="0.5" max="3" value="1"  step="0.5" class="player__slider">
+            </div>
+            <div class="skip-container">
+                <button data-skip="-10" class="player__button">-10s</button>
+                <button data-skip="10" class="player__button">+10s</button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
