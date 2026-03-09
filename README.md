@@ -20,3 +20,4 @@ Project JS-10 : Hold Shift Functions - 🔗 : https://physeck.github.io/JS-SelfP
 
 Project JS-11 : Video Player - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day11/
 
+Project JS-12 : KONAMI Arrow Code - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day12/
