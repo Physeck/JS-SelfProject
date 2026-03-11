@@ -8,7 +8,7 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -41,3 +41,48 @@ body {
 }
 
 /* --------------------------------------*/
+.page__slide {
+    text-align: justify;
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+    max-width: 480px;
+    overflow: hidden;
+    margin: 12px;
+}
+
+.page__slide p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.page__slide img {
+    width: 280px;
+    height: auto;
+}
+
+.img-left {
+    float: left;
+}
+
+.img-right {
+    float: right;
+}
+
+.img-left.slide-in {
+    transform: translateX(-50%) scale(0.95);
+}
+
+.img-right.slide-in {
+    transform: translateX(50%) scale(0.95);
+}
+
+.slide-in {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.slide-in.active {
+    opacity: 1;
+    transform: translate(0%) scale(1);
+}
