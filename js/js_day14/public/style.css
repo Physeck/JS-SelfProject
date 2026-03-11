@@ -41,3 +41,35 @@ body {
 }
 
 /* --------------------------------------*/
+p {
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    animation: p-frame 5s infinite;
+}
+
+@keyframes p-frame {
+    0% {
+        color: lightcoral;
+    }
+
+    20% {
+        color: lightgreen;
+    }
+
+    40% {
+        color: blueviolet;
+    }
+
+    60% {
+        color: yellow;
+    }
+
+    80% {
+        color: aqua;
+    }
+
+    100% {
+        color: white;
+    }
+}
