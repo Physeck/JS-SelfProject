@@ -21,3 +21,11 @@ Project JS-10 : Hold Shift Functions - 🔗 : https://physeck.github.io/JS-SelfP
 Project JS-11 : Video Player - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day11/
 
 Project JS-12 : KONAMI Arrow Code - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day12/
+
+Project JS-13 : Slide on Scroll - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day13/
+
+Project JS-14 : Object & Array (Reference vs Copy) - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day14/
+
+Project JS-15 : Local storage & Event delegation - 🔗 : [https://physeck.github.io/JS-SelfProject/js/js_day15/](https://physeck.github.io/simple_todo-list/)
+
+Project JS-16 : Mouse Move JS - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day16/
