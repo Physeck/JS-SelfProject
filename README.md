@@ -32,4 +32,4 @@ Project JS-16 : Mouse Move JS - 🔗 : https://physeck.github.io/JS-SelfProject/
 
 Project JS-17 : Selective Sorting JS - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day17/
 
-Project JS-16 : Mouse Move JS - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day16/
+Project JS-18 : String Tally - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day18/
