@@ -29,3 +29,7 @@ Project JS-14 : Object & Array (Reference vs Copy) - 🔗 : https://physeck.gith
 Project JS-15 : Local storage & Event delegation - 🔗 : [https://physeck.github.io/JS-SelfProject/js/js_day15/](https://physeck.github.io/simple_todo-list/)
 
 Project JS-16 : Mouse Move JS - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day16/
+
+Project JS-17 : Selective Sorting JS - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day17/
+
+Project JS-18 : String Tally - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day18/
