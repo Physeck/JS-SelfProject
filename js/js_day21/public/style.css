@@ -41,3 +41,48 @@ body {
 }
 
 /* --------------------------------------*/
+.navbar {
+    display: flex;
+    padding: 1rem 1.75rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: transform 0.7s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.075);
+}
+
+.navbar__nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar__links-container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar__links-space {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.navbar--item {
+    text-decoration: none;
+    font-weight: 600;
+    color: #3d0000;
+    transition-duration: 0.2s;
+}
+
+.highlight {
+    transition: all .4s;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: lightgreen;
+    z-index: -1;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.075);
+}
