@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Proj] JS-[n]</title>
+    <title>Speech Synthesis JS-22</title>
     <link rel="stylesheet" href="public/style.css">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
     <script src="public/main.js" defer></script>
@@ -13,6 +13,26 @@
 <body class="hero">
     <div class="header-container">
         <a href="https://github.com/Physeck/JS-SelfProject" class="text-deco-none text-color" id="mainHeader"></a>
+    </div>
+    <div class="voice">
+        <h1>Voice Speech Editor</h1>
+
+        <div class="voice-controls">
+            <select name="voice" id="voices">
+                <option value="">Select a Voice</option>
+            </select>
+
+            <label for="rate">Rate:</label>
+            <input type="range" name="rate" min="0" max="3" value="1" step="0.1">
+
+            <label for="rate">Pitch:</label>
+            <input type="range" name="pitch" min="0" max="2" step="0.1">
+            <textarea name="text">Hello This is a Voice Speech, Have fun!</textarea>
+        </div>
+        <div class="voice-btn">
+            <button id="stop">Stop</button>
+            <button id="speak">Speak</button>
+        </div>
     </div>
 </body>
 
