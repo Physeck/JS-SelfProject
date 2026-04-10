@@ -19,9 +19,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
     font-size: 80px;
     font-weight: 150 !important;
+    position: relative;
+    height: 768px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .text-deco-none {
@@ -30,7 +33,7 @@ body {
 
 .text-color,
 .typed-cursor {
-    color: #3e0000;
+    color: #fff;
 }
 
 .hero {
@@ -41,3 +44,115 @@ body {
 }
 
 /* --------------------------------------*/
+.header-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    filter: brightness(0.7);
+}
+
+.header-container a {
+    position: relative;
+    z-index: 2;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.95);
+    top: 0;
+    width: 100%;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 15px 25px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #999;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+li.logo {
+    display: flex;
+    background: white;
+    align-items: center;
+    padding: 0;
+    max-width: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+nav li:hover {
+    color: #fff;
+}
+
+nav li::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+nav li:hover::after {
+    width: 30px;
+}
+
+.content {
+    background: #fff;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 40px 400px;
+    font-size: 1.25rem;
+    text-align: justify;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+    transform: scale(0.95);
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.content p:last-child {
+    margin-bottom: 0px;
+}
+
+.nav-stick nav {
+    position: fixed;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3);
+}
+
+.nav-stick li.logo{
+    max-width: 500px;
+}
+
+.nav-stick .content{
+    transform: scale(1);
+}
