@@ -41,3 +41,21 @@ body {
 }
 
 /* --------------------------------------*/
+
+.one, .two, .three{
+    width: 100%;
+    padding: 100px;
+}
+
+.one {
+    background: lightcoral;
+}
+
+.two {
+    background: lightgreen;
+}
+
+.three {
+    background: lightblue;
+}
+
