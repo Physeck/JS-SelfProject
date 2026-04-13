@@ -4,13 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Proj] JS-[n]</title>
+    <title>Follow Along Dropdown JS-25</title>
     <link rel="stylesheet" href="public/style.css">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
     <script src="public/main.js" defer></script>
 </head>
 
 <body class="hero">
+    <nav class="top">
+        <div class="dropdownBg">
+            <span class="arrow">
+            </span>
+        </div>
+
+        <ul class="nav-container">
+            <li>
+                <a href="#">Home</a>
+                <div class="dropdown dropdown1">
+                    <div class="bio">
+                        <img src="public/images/test.png" alt="Test Image">
+                        <p>Physeck loves learning about coding and continuously improve himself by challenging his knowledge!</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">Projects</a>
+                <ul class="dropdown courses">
+                    <li>
+                        <a href="">Javascript</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Connect</a>
+                <div class="dropdown connect">
+                    <ul>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Linkedin</a></li>
+                        <li><a href="">Github</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
     <div class="header-container">
         <a href="https://github.com/Physeck/JS-SelfProject" class="text-deco-none text-color" id="mainHeader"></a>
     </div>
