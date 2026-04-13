@@ -18,7 +18,7 @@ function handleEnter() {
     bg.classList.add('open');
 
     const dropdown = this.querySelector('.dropdown');
-    const dropdownCoords = dropdown.getBoundingClientRect();
+    const dropdownCoords = dropdown.getBoundingClientRect(); //getBoundingClientRect => to get height,width,top,left coords.
     const navCoords = nav.getBoundingClientRect();
 
     const coords = {
