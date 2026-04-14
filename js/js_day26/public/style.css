@@ -41,3 +41,51 @@ body {
 }
 
 /* --------------------------------------*/
+.items {
+    height: 800px;
+    padding: 80px;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 0;
+    perspective: 500px;
+}
+
+.items.active {
+    background: rgba(255, 255, 255, 0.3);
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+}
+
+.item {
+    width: 200px;
+    height: calc(100% - 40px);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.item:nth-child(odd) {
+    transform: rotateY(-30deg);
+    transform-origin: right;
+    background: rgb(255, 103, 103);
+}
+
+.item:nth-child(even) {
+    transform: rotateY(30deg);
+    transform-origin: left;
+    background: rgb(66, 66, 255);
+    margin-right: -54px;
+}
