@@ -41,3 +41,39 @@ body {
 }
 
 /* --------------------------------------*/
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.flex {
+    width: 70%;
+}
+
+.speed, .speed-bar {
+    width: 60px;
+    border-radius: 40px;
+}
+
+.speed {
+    display: flex;
+    height: 50vh;
+    align-items: flex-start;
+    background-color: #d7d7d7;
+    margin-left: 12px;
+    overflow: hidden;
+}
+
+.speed-bar {
+    display: flex;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background: #3e0000;
+    user-select: none;
+}
