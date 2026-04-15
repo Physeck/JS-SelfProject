@@ -41,3 +41,65 @@ body {
 }
 
 /* --------------------------------------*/
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer-container span {
+    font-weight: bold;
+}
+
+.timer-container span {
+    background: linear-gradient(to left, #5362ff, #f06595);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.timer {
+    font-size: 4rem;
+}
+
+.timer-remind {
+    font-size: 1.2rem;
+}
+
+.timer-controls {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.timer-btn {
+    font-weight: 600;
+    padding: 12px 20px;
+    background: #36e222;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.timer-btn:hover {
+    background: #0e8f00;
+}
+
+#timeForm {
+    display: flex;
+    justify-content: center;
+}
+
+#timeForm input {
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: border-color 0.3s ease;
+    background: white;
+}
+
+
