@@ -35,3 +35,24 @@ Project JS-17 : Selective Sorting JS - 🔗 : https://physeck.github.io/JS-SelfP
 Project JS-18 : String Tally - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day18/
 
 Project JS-19 : Webcam - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day19/
+
+Project JS-20 : Speech Recognition - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day20/
+
+Project JS-21 : Follow along Hover - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day21/
+
+Project JS-22 : Speech Synthesis - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day22/
+
+Project JS-23 : Sticky Navbar - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day23/
+
+Project JS-24 : Event Capture, Propagation, Bubbling and Once - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day24/
+
+Project JS-25 : Follow Along Dropdown - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day25/
+
+Project JS-26 : Click & Drag Scroll - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day26/
+
+Project JS-27 : Dynamic Video Playback Controller - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day27/
+
+Project JS-28 : Timer - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day28/
+
+Project JS-29 : Whack a Mole - 🔗 : https://physeck.github.io/JS-SelfProject/js/js_day29/
+
