@@ -41,3 +41,28 @@ body {
 }
 
 /* --------------------------------------*/
+.container {
+    margin: 12px 0;
+    display: flex;
+    margin: 4px;
+    gap: 4px;
+}
+
+.container p {
+    margin-right: 4px;
+}
+
+.message {
+    color: white;
+    padding: 4px;
+    margin: 4px;
+    transition: all 0.4s;
+}
+
+.message.correct {
+    background: green;
+}
+
+.message.wrong {
+    background: red;
+}
